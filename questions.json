@@ -166,10 +166,12 @@
       "operationEnd": "17:40",
       "lunchStart": "12:00",
       "lunchEnd": "13:00"
-    }
+    },
+    "startHint": "1층 로비에서 첫 번째 QR을 찾아보세요!",
+    "startHintImage": ""
   },
   "survey": {
-    "enabled": true,
+    "enabled": false,
     "externalUrl": "https://forms.gle/rEe8JQD6UEG3tYBZA",
     "eventName": "행사 만족도 조사",
     "questions": [
