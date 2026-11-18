@@ -1,0 +1,195 @@
+{
+  "title": "퀴즈를 풀어라",
+  "description": "충주자연생태체험관 곳곳의 QR코드를 찾아 문제를 풀고 다음 장소 힌트를 확인하세요.",
+  "finalHint": "모든 미션을 완료했습니다.",
+  "questions": [
+    {
+      "id": "snake",
+      "type": "choice",
+      "title": "1번 퀴즈를 풀어라",
+      "prompt": "혈앵무의 설명으로 틀린것은?",
+      "answer": "3. 우리나라 하천에서 자연적으로 서식하는 토종 물고기이다.",
+      "points": 1,
+      "explanation": "혈앵무의 사람에 의해 인공적으로 만들어진 관상어입니다.",
+      "nextHint": "2층 로비에 인사하는 앵무새친구가 있어요!",
+      "choices": [
+        "1.성체 기준 최대 15~20cm까지 자란다.",
+        "2. 최대 수명은 10년 ~15년이다.",
+        "3. 우리나라 하천에서 자연적으로 서식하는 토종 물고기이다."
+      ],
+      "options": [
+        "1.성체 기준 최대 15~20cm까지 자란다.",
+        "2. 최대 수명은 10년 ~15년이다.",
+        "3. 우리나라 하천에서 자연적으로 서식하는 토종 물고기이다."
+      ],
+      "media": {
+        "image": {
+          "src": "./Blood parrot cichlid.png",
+          "alt": "1번 퀴즈를 풀어라 사진"
+        }
+      }
+    },
+    {
+      "id": "frog",
+      "type": "choice",
+      "title": "2번 퀴즈를 풀어라",
+      "prompt": "누가 미디엄코카투 일까요?",
+      "answer": "1",
+      "points": 1,
+      "explanation": "2번은 미첼코카투 3번은 엄브렐라코카투입니다",
+      "nextHint": "느리지만 단단한 집을 등에 지고 다니는 친구를 찾아보세요.",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "choices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "media": {
+        "image": {
+          "src": "./cockatoo-choice.png",
+          "alt": "2번 퀴즈를 풀어라 사진"
+        }
+      }
+    },
+    {
+      "id": "turtle",
+      "type": "choice",
+      "title": "3번 퀴즈를 풀어라",
+      "prompt": "거북의 등을 보호하는 단단한 부분을 무엇이라고 부를까요?",
+      "choices": [
+        "등껍질",
+        "날개",
+        "비늘털",
+        "부리"
+      ],
+      "answer": "등껍질",
+      "points": 1,
+      "explanation": "거북은 단단한 등껍질로 몸을 보호합니다.",
+      "nextHint": "메인전시실에 요술스캐너가 있어요!",
+      "options": [
+        "등껍질",
+        "날개",
+        "비늘털",
+        "부리"
+      ],
+      "media": {
+        "image": {
+          "src": "./Leopard tortoise.png",
+          "alt": "3번 퀴즈를 풀어라 사진"
+        }
+      }
+    },
+    {
+      "id": "otter",
+      "type": "choice",
+      "title": "4번 퀴즈를 풀어라",
+      "prompt": "나비는 알 → 애벌레 → 번데기 → 나비의 순서로 자랍니다. 이러한 성장 과정을 무엇이라고 할까요?",
+      "answer": "한살이",
+      "points": 1,
+      "explanation": "한살이는 생물이 자라면서 성장하는 과정을 말합니다. \n나비는 알 → 애벌레 → 번데기 → 나비의 순서로 자라며, \n이를 나비의 한살이라고 합니다.",
+      "nextHint": "지하 놀이체험실에 놀러가자!",
+      "options": [
+        "변신",
+        "한살이",
+        "번식"
+      ],
+      "choices": [
+        "변신",
+        "한살이",
+        "번식"
+      ],
+      "media": {
+        "image": {
+          "src": "./Butterfly hint.png",
+          "alt": "4번 퀴즈를 풀어라 사진"
+        }
+      },
+      "imageHint": {
+        "src": "./Butterfly.png",
+        "alt": "",
+        "position": "center"
+      }
+    },
+    {
+      "id": "insect",
+      "type": "text",
+      "title": "5번 퀴즈를 풀어라",
+      "prompt": "대기 중 수증기 속 물방울에 의해 햇빛이나 달빛이 굴절, 반사, 분산되면서 나타나는 현상은?",
+      "answer": "무지개",
+      "points": 1,
+      "explanation": "무지개입니다.",
+      "nextHint": "야외 놀이터 옆에 신가한 나무가 있데요!\n우천시를 대비하여 로비에 QR코드를 하나 더 숨겨놨습니다.",
+      "options": [],
+      "media": {
+        "image": {
+          "src": "./Rainbow.png",
+          "alt": "5번 퀴즈를 풀어라 사진"
+        }
+      }
+    },
+    {
+      "id": "finish",
+      "type": "choice",
+      "title": "6번 퀴즈를 풀어라",
+      "prompt": "가지에는 2~3줄의 날개가 달려있며, 가을에는 잎이 진홍색으로 물들고 \n주활색 열매를 맺어 불타는 덤불이라는 별칭으로 불리는것은?",
+      "answer": "2. 화살나무",
+      "points": 1,
+      "explanation": "보기 중 화살나무만 2~3줄의 날개를 가지고 있습니다.",
+      "nextHint": "수고하셨습니다.",
+      "options": [
+        "1.가시나무",
+        "2.화살나무",
+        "3.회잎나무",
+        "4.참빗살나무"
+      ],
+      "choices": [
+        "1.가시나무",
+        "2.화살나무",
+        "3.회잎나무",
+        "4.참빗살나무"
+      ],
+      "media": {
+        "image": {
+          "src": "./Winged spindle.png",
+          "alt": "6번 퀴즈를 풀어라 사진"
+        }
+      }
+    }
+  ],
+  "settings": {
+    "operatingHours": {
+      "operationStart": "20:00",
+      "operationEnd": "17:40",
+      "lunchStart": "12:00",
+      "lunchEnd": "13:00"
+    }
+  },
+  "survey": {
+    "enabled": true,
+    "externalUrl": "https://forms.gle/rEe8JQD6UEG3tYBZA",
+    "eventName": "행사 만족도 조사",
+    "questions": [
+      {
+        "id": "survey-mrocekoo",
+        "type": "text",
+        "question": "새 설문 문항",
+        "options": [],
+        "required": false
+      },
+      {
+        "id": "survey-mrtvw21n",
+        "type": "choice",
+        "question": "새 설문 문항",
+        "options": [
+          "보기 1",
+          "보기 2"
+        ],
+        "required": true
+      }
+    ]
+  }
+}
